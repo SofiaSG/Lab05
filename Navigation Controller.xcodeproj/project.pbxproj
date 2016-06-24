@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		D1B186EE1D1DF92D0029CEC0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B186ED1D1DF92D0029CEC0 /* main.m */; };
 		D1B186F11D1DF92D0029CEC0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B186F01D1DF92D0029CEC0 /* AppDelegate.m */; };
-		D1B186F41D1DF92D0029CEC0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B186F31D1DF92D0029CEC0 /* ViewController.m */; };
+		D1B186F41D1DF92D0029CEC0 /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B186F31D1DF92D0029CEC0 /* Home.m */; };
 		D1B186F71D1DF92D0029CEC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1B186F51D1DF92D0029CEC0 /* Main.storyboard */; };
 		D1B186FA1D1DF92D0029CEC0 /* Navigation_Controller.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D1B186F81D1DF92D0029CEC0 /* Navigation_Controller.xcdatamodeld */; };
 		D1B186FC1D1DF92D0029CEC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1B186FB1D1DF92D0029CEC0 /* Assets.xcassets */; };
@@ -21,8 +21,8 @@
 		D1B186ED1D1DF92D0029CEC0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D1B186EF1D1DF92D0029CEC0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D1B186F01D1DF92D0029CEC0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D1B186F21D1DF92D0029CEC0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D1B186F31D1DF92D0029CEC0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D1B186F21D1DF92D0029CEC0 /* Home.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Home.h; sourceTree = "<group>"; };
+		D1B186F31D1DF92D0029CEC0 /* Home.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Home.m; sourceTree = "<group>"; };
 		D1B186F61D1DF92D0029CEC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D1B186F91D1DF92D0029CEC0 /* Navigation_Controller.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Navigation_Controller.xcdatamodel; sourceTree = "<group>"; };
 		D1B186FB1D1DF92D0029CEC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,10 +60,8 @@
 		D1B186EB1D1DF92D0029CEC0 /* Navigation Controller */ = {
 			isa = PBXGroup;
 			children = (
-				D1B186EF1D1DF92D0029CEC0 /* AppDelegate.h */,
-				D1B186F01D1DF92D0029CEC0 /* AppDelegate.m */,
-				D1B186F21D1DF92D0029CEC0 /* ViewController.h */,
-				D1B186F31D1DF92D0029CEC0 /* ViewController.m */,
+				D1B187071D1DF94C0029CEC0 /* Main */,
+				D1B187061D1DF9440029CEC0 /* Controllers */,
 				D1B186F51D1DF92D0029CEC0 /* Main.storyboard */,
 				D1B186FB1D1DF92D0029CEC0 /* Assets.xcassets */,
 				D1B186FD1D1DF92D0029CEC0 /* LaunchScreen.storyboard */,
@@ -80,6 +78,24 @@
 				D1B186ED1D1DF92D0029CEC0 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D1B187061D1DF9440029CEC0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D1B186F21D1DF92D0029CEC0 /* Home.h */,
+				D1B186F31D1DF92D0029CEC0 /* Home.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		D1B187071D1DF94C0029CEC0 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				D1B186EF1D1DF92D0029CEC0 /* AppDelegate.h */,
+				D1B186F01D1DF92D0029CEC0 /* AppDelegate.m */,
+			);
+			name = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,7 +168,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1B186F41D1DF92D0029CEC0 /* ViewController.m in Sources */,
+				D1B186F41D1DF92D0029CEC0 /* Home.m in Sources */,
 				D1B186FA1D1DF92D0029CEC0 /* Navigation_Controller.xcdatamodeld in Sources */,
 				D1B186F11D1DF92D0029CEC0 /* AppDelegate.m in Sources */,
 				D1B186EE1D1DF92D0029CEC0 /* main.m in Sources */,
