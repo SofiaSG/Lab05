@@ -12,6 +12,11 @@
 @property NSMutableArray *destinationTitles;
 @property NSMutableArray *destinationDescriptions;
 @property NSMutableArray *destinationPhotos;
+
+@property NSString *stTitleSelected;
+@property NSString *stDescriptionSelected;
+@property NSString *stPhotoSelected;
+
 @end
 
 @implementation Home
@@ -65,21 +70,30 @@
 }
 //-------------------------------------------------------------------------------
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-//    self.alertIndex = (int)indexPath.row;
+    self.stTitleSelected        = self.destinationTitles[indexPath.row];
+    self.stDescriptionSelected  = self.destinationDescriptions[indexPath.row];
+    self.stPhotoSelected        = self.destinationPhotos[indexPath.row];
     [self performSegueWithIdentifier:@"DestinationDetails" sender:self];
 }
-
 /**********************************************************************************************/
 #pragma mark - Navigation
 /**********************************************************************************************/
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-
-//    if ([segue.destinationViewController isKindOfClass:[AlertDetails class]]) {
-//        AlertDetails *alert         = [segue destinationViewController];
-//        alert.alertIndex            = self.alertIndex;
-//        alert.objectCAPData         = self.objectCAPData;
-//        alert.capIndex              = (int)self.iPageIndex;
-//    }
+    
+    if ([segue.destinationViewController isKindOfClass:[DestinationDetails class]]) {
+        DestinationDetails *destination     = [segue destinationViewController];
+        destination.destinationTitle        = self.stTitleSelected;
+        destination.destinationDescription  = self.stDescriptionSelected;
+        destination.destinationPhoto        = self.stPhotoSelected;
+        
+    }
 }
+
+
+
+
+
+
+
 
 @end
