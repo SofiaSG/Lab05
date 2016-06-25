@@ -9,7 +9,9 @@
 #import "Home.h"
 
 @interface Home ()
-@property NSMutableArray *homeArray;
+@property NSMutableArray *destinationTitles;
+@property NSMutableArray *destinationDescriptions;
+@property NSMutableArray *destinationPhotos;
 @end
 
 @implementation Home
@@ -27,7 +29,9 @@
 }
 //-------------------------------------------------------------------------------
 - (void)initController {
-    self.homeArray   = [[NSMutableArray alloc] initWithObjects: @"Enero", @"Febrero", @"Marzo", @"Abril", nil];
+    self.destinationTitles          = [[NSMutableArray alloc] initWithObjects: @"Marruecos", @"Ibiza", @"Cancún", @"Islas Griegas", @"Islandia", nil];
+    self.destinationPhotos          = [[NSMutableArray alloc] initWithObjects: @"destination01.png", @"destination02.png", @"destination03.png", @"destination04.png", @"destination05.png", nil];
+    self.destinationDescriptions   = [[NSMutableArray alloc] initWithObjects: @"Destino de lujo para almas aventureras que buscan libertad", @"Destino de lujo para almas aventureras que buscan libertad", @"Destino de lujo para almas aventureras que buscan libertad", @"Destino de lujo para almas aventureras que buscan libertad", @"Destino de lujo para almas aventureras que buscan libertad", nil];
 }
 /**********************************************************************************************/
 #pragma mark - Table source and delegate methods
@@ -37,11 +41,11 @@
 }
 //-------------------------------------------------------------------------------
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return self.homeArray.count;
+    return self.destinationTitles.count;
 }
 //-------------------------------------------------------------------------------
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
-    return 120;
+    return 190;
 }
 //-------------------------------------------------------------------------------
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -53,12 +57,29 @@
         cell = [tableView dequeueReusableCellWithIdentifier:@"cellHome"];
     }
     //Fill cell with info from arrays
+    cell.lblDestinationTitle.text   = self.destinationTitles[indexPath.row];
+    cell.lblDescription.text        = self.destinationDescriptions[indexPath.row];
+    cell.imgDestination.image       = [UIImage imageNamed:self.destinationPhotos[indexPath.row]];
     
     return cell;
 }
 //-------------------------------------------------------------------------------
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    
+//    self.alertIndex = (int)indexPath.row;
+    [self performSegueWithIdentifier:@"DestinationDetails" sender:self];
+}
+
+/**********************************************************************************************/
+#pragma mark - Navigation
+/**********************************************************************************************/
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+
+//    if ([segue.destinationViewController isKindOfClass:[AlertDetails class]]) {
+//        AlertDetails *alert         = [segue destinationViewController];
+//        alert.alertIndex            = self.alertIndex;
+//        alert.objectCAPData         = self.objectCAPData;
+//        alert.capIndex              = (int)self.iPageIndex;
+//    }
 }
 
 @end
