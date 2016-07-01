@@ -7,14 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#include "cellCity.h"
+#include "CityDetail.h"
 
 @interface DestinationDetails : UIViewController
 @property NSString *destinationTitle;
 @property NSString *destinationDescription;
 @property NSString *destinationPhoto;
 
-@property (strong, nonatomic) IBOutlet UIImageView *imgDestination;
 @property (strong, nonatomic) IBOutlet UILabel *lblTitle;
-@property (strong, nonatomic) IBOutlet UILabel *lblDescription;
 
 @end

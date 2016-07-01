@@ -14,8 +14,6 @@
 @property NSMutableArray *destinationPhotos;
 
 @property NSString *stTitleSelected;
-@property NSString *stDescriptionSelected;
-@property NSString *stPhotoSelected;
 
 @end
 
@@ -34,9 +32,9 @@
 }
 //-------------------------------------------------------------------------------
 - (void)initController {
-    self.destinationTitles          = [[NSMutableArray alloc] initWithObjects: @"Marruecos", @"Ibiza", @"Cancún", @"Islas Griegas", @"Islandia", nil];
-    self.destinationPhotos          = [[NSMutableArray alloc] initWithObjects: @"destination01.png", @"destination02.png", @"destination03.png", @"destination04.png", @"destination05.png", nil];
-    self.destinationDescriptions   = [[NSMutableArray alloc] initWithObjects: @"Destino de lujo para almas aventureras que buscan libertad", @"Destino de lujo para almas aventureras que buscan libertad", @"Destino de lujo para almas aventureras que buscan libertad", @"Destino de lujo para almas aventureras que buscan libertad", @"Destino de lujo para almas aventureras que buscan libertad", nil];
+    self.destinationTitles          = [[NSMutableArray alloc] initWithObjects: @"Jalisco", @"Sinaloa", @"Sonora", @"BCS", @"Nayarit", nil];
+    self.destinationPhotos          = [[NSMutableArray alloc] initWithObjects: @"Jalisco.jpg", @"Sinaloa.jpg", @"Sonora.jpg", @"BCS.jpg", @"Nayarit.jpg", nil];
+    self.destinationDescriptions   = [[NSMutableArray alloc] initWithObjects: @"Es la tierra de los charros, jaripeos, mariachi, tequila.", @"Es el estado agrícola más importante de México.", @"Es conocido por sus características desérticas, su clima caluroso y sus playas.", @"Es, junto con Quintana Roo, la entidad más joven del país.", @"Se mantiene en el primer lugar de playas limpias a nivel nacional", nil];
 }
 /**********************************************************************************************/
 #pragma mark - Table source and delegate methods
@@ -97,8 +95,8 @@
 //-------------------------------------------------------------------------------
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     self.stTitleSelected        = self.destinationTitles[indexPath.row];
-    self.stDescriptionSelected  = self.destinationDescriptions[indexPath.row];
-    self.stPhotoSelected        = self.destinationPhotos[indexPath.row];
+    //self.stDescriptionSelected  = self.destinationDescriptions[indexPath.row];
+   // self.stPhotoSelected        = self.destinationPhotos[indexPath.row];
     [self performSegueWithIdentifier:@"DestinationDetails" sender:self];
 }
 /**********************************************************************************************/
@@ -109,8 +107,8 @@
     if ([segue.destinationViewController isKindOfClass:[DestinationDetails class]]) {
         DestinationDetails *destination     = [segue destinationViewController];
         destination.destinationTitle        = self.stTitleSelected;
-        destination.destinationDescription  = self.stDescriptionSelected;
-        destination.destinationPhoto        = self.stPhotoSelected;
+       // destination.destinationDescription  = self.stDescriptionSelected;
+       // destination.destinationPhoto        = self.stPhotoSelected;
         
     }
 }

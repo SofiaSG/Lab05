@@ -7,6 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		650CA6CA1D235EDD0012058A /* cellCity.m in Sources */ = {isa = PBXBuildFile; fileRef = 650CA6C81D235EDD0012058A /* cellCity.m */; };
+		650CA6CB1D235EDD0012058A /* cellCity.xib in Resources */ = {isa = PBXBuildFile; fileRef = 650CA6C91D235EDD0012058A /* cellCity.xib */; };
+		654340741D2490460072E057 /* CityDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 654340731D2490460072E057 /* CityDetail.m */; };
+		6553B6491D25DB9100BB49CE /* gdl.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6553B6481D25DB9100BB49CE /* gdl.jpg */; };
+		6553B64E1D25DD0C00BB49CE /* arandas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6553B64A1D25DD0C00BB49CE /* arandas.jpg */; };
+		6553B64F1D25DD0C00BB49CE /* tonala.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6553B64B1D25DD0C00BB49CE /* tonala.jpg */; };
+		6553B6501D25DD0C00BB49CE /* vallarta.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6553B64C1D25DD0C00BB49CE /* vallarta.jpg */; };
+		6553B6511D25DD0C00BB49CE /* zapopan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6553B64D1D25DD0C00BB49CE /* zapopan.jpg */; };
+		6553B6571D25E26D00BB49CE /* culiacan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6553B6521D25E26D00BB49CE /* culiacan.jpg */; };
+		6553B6581D25E26D00BB49CE /* guasave.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6553B6531D25E26D00BB49CE /* guasave.jpg */; };
+		6553B6591D25E26D00BB49CE /* losmochis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6553B6541D25E26D00BB49CE /* losmochis.jpg */; };
+		6553B65A1D25E26D00BB49CE /* mazatlan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6553B6551D25E26D00BB49CE /* mazatlan.jpg */; };
+		6553B65B1D25E26D00BB49CE /* rosario.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6553B6561D25E26D00BB49CE /* rosario.jpg */; };
+		6553B6611D25E36700BB49CE /* Hermosillo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6553B65C1D25E36700BB49CE /* Hermosillo.jpg */; };
+		6553B6621D25E36700BB49CE /* navojoa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6553B65D1D25E36700BB49CE /* navojoa.jpg */; };
+		6553B6631D25E36700BB49CE /* Nogales.png in Resources */ = {isa = PBXBuildFile; fileRef = 6553B65E1D25E36700BB49CE /* Nogales.png */; };
+		6553B6641D25E36700BB49CE /* Rayon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6553B65F1D25E36700BB49CE /* Rayon.jpg */; };
+		6553B6651D25E36700BB49CE /* Ures.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6553B6601D25E36700BB49CE /* Ures.jpg */; };
+		6553B66B1D25E46B00BB49CE /* comondu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6553B6661D25E46B00BB49CE /* comondu.jpg */; };
+		6553B66C1D25E46B00BB49CE /* lapaz.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6553B6671D25E46B00BB49CE /* lapaz.jpg */; };
+		6553B66D1D25E46B00BB49CE /* Loreto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6553B6681D25E46B00BB49CE /* Loreto.jpg */; };
+		6553B66E1D25E46B00BB49CE /* Mulege.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6553B6691D25E46B00BB49CE /* Mulege.jpg */; };
+		6553B66F1D25E46B00BB49CE /* Santarosalia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6553B66A1D25E46B00BB49CE /* Santarosalia.jpg */; };
+		6553B6751D25E62D00BB49CE /* Bahia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6553B6701D25E62D00BB49CE /* Bahia.jpg */; };
+		6553B6761D25E62D00BB49CE /* Compostela.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6553B6711D25E62D00BB49CE /* Compostela.jpg */; };
+		6553B6771D25E62D00BB49CE /* Sanblas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6553B6721D25E62D00BB49CE /* Sanblas.jpg */; };
+		6553B6781D25E62D00BB49CE /* Tecuala.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6553B6731D25E62D00BB49CE /* Tecuala.jpg */; };
+		6553B6791D25E62D00BB49CE /* Tepic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6553B6741D25E62D00BB49CE /* Tepic.jpg */; };
+		6553B67F1D25E82500BB49CE /* BCS.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6553B67A1D25E82500BB49CE /* BCS.jpg */; };
+		6553B6801D25E82500BB49CE /* Jalisco.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6553B67B1D25E82500BB49CE /* Jalisco.jpg */; };
+		6553B6811D25E82500BB49CE /* Nayarit.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6553B67C1D25E82500BB49CE /* Nayarit.jpg */; };
+		6553B6821D25E82500BB49CE /* Sinaloa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6553B67D1D25E82500BB49CE /* Sinaloa.jpg */; };
+		6553B6831D25E82500BB49CE /* Sonora.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6553B67E1D25E82500BB49CE /* Sonora.jpg */; };
 		D1B186EE1D1DF92D0029CEC0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B186ED1D1DF92D0029CEC0 /* main.m */; };
 		D1B186F11D1DF92D0029CEC0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B186F01D1DF92D0029CEC0 /* AppDelegate.m */; };
 		D1B186F41D1DF92D0029CEC0 /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B186F31D1DF92D0029CEC0 /* Home.m */; };
@@ -16,15 +49,45 @@
 		D1B186FF1D1DF92D0029CEC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1B186FD1D1DF92D0029CEC0 /* LaunchScreen.storyboard */; };
 		D1B1870C1D1DFCE90029CEC0 /* cellHome.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B1870A1D1DFCE90029CEC0 /* cellHome.m */; };
 		D1B1870D1D1DFCE90029CEC0 /* cellHome.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1B1870B1D1DFCE90029CEC0 /* cellHome.xib */; };
-		D1B187161D1E05B40029CEC0 /* destination01.png in Resources */ = {isa = PBXBuildFile; fileRef = D1B187101D1E05B40029CEC0 /* destination01.png */; };
-		D1B187171D1E05B40029CEC0 /* destination02.png in Resources */ = {isa = PBXBuildFile; fileRef = D1B187111D1E05B40029CEC0 /* destination02.png */; };
-		D1B187181D1E05B40029CEC0 /* destination03.png in Resources */ = {isa = PBXBuildFile; fileRef = D1B187121D1E05B40029CEC0 /* destination03.png */; };
-		D1B187191D1E05B40029CEC0 /* destination04.png in Resources */ = {isa = PBXBuildFile; fileRef = D1B187131D1E05B40029CEC0 /* destination04.png */; };
-		D1B1871A1D1E05B40029CEC0 /* destination05.png in Resources */ = {isa = PBXBuildFile; fileRef = D1B187141D1E05B40029CEC0 /* destination05.png */; };
 		D1B1871D1D1E0C7B0029CEC0 /* DestinationDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B1871C1D1E0C7B0029CEC0 /* DestinationDetails.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		650CA6C71D235EDD0012058A /* cellCity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cellCity.h; sourceTree = "<group>"; };
+		650CA6C81D235EDD0012058A /* cellCity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cellCity.m; sourceTree = "<group>"; };
+		650CA6C91D235EDD0012058A /* cellCity.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = cellCity.xib; sourceTree = "<group>"; };
+		654340721D2490460072E057 /* CityDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityDetail.h; sourceTree = "<group>"; };
+		654340731D2490460072E057 /* CityDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityDetail.m; sourceTree = "<group>"; };
+		6553B6481D25DB9100BB49CE /* gdl.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gdl.jpg; sourceTree = "<group>"; };
+		6553B64A1D25DD0C00BB49CE /* arandas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = arandas.jpg; sourceTree = "<group>"; };
+		6553B64B1D25DD0C00BB49CE /* tonala.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tonala.jpg; sourceTree = "<group>"; };
+		6553B64C1D25DD0C00BB49CE /* vallarta.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vallarta.jpg; sourceTree = "<group>"; };
+		6553B64D1D25DD0C00BB49CE /* zapopan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zapopan.jpg; sourceTree = "<group>"; };
+		6553B6521D25E26D00BB49CE /* culiacan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = culiacan.jpg; sourceTree = "<group>"; };
+		6553B6531D25E26D00BB49CE /* guasave.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = guasave.jpg; sourceTree = "<group>"; };
+		6553B6541D25E26D00BB49CE /* losmochis.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = losmochis.jpg; sourceTree = "<group>"; };
+		6553B6551D25E26D00BB49CE /* mazatlan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mazatlan.jpg; sourceTree = "<group>"; };
+		6553B6561D25E26D00BB49CE /* rosario.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rosario.jpg; sourceTree = "<group>"; };
+		6553B65C1D25E36700BB49CE /* Hermosillo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hermosillo.jpg; sourceTree = "<group>"; };
+		6553B65D1D25E36700BB49CE /* navojoa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = navojoa.jpg; sourceTree = "<group>"; };
+		6553B65E1D25E36700BB49CE /* Nogales.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Nogales.png; sourceTree = "<group>"; };
+		6553B65F1D25E36700BB49CE /* Rayon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Rayon.jpg; sourceTree = "<group>"; };
+		6553B6601D25E36700BB49CE /* Ures.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Ures.jpg; sourceTree = "<group>"; };
+		6553B6661D25E46B00BB49CE /* comondu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = comondu.jpg; sourceTree = "<group>"; };
+		6553B6671D25E46B00BB49CE /* lapaz.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lapaz.jpg; sourceTree = "<group>"; };
+		6553B6681D25E46B00BB49CE /* Loreto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Loreto.jpg; sourceTree = "<group>"; };
+		6553B6691D25E46B00BB49CE /* Mulege.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Mulege.jpg; sourceTree = "<group>"; };
+		6553B66A1D25E46B00BB49CE /* Santarosalia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Santarosalia.jpg; sourceTree = "<group>"; };
+		6553B6701D25E62D00BB49CE /* Bahia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bahia.jpg; sourceTree = "<group>"; };
+		6553B6711D25E62D00BB49CE /* Compostela.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Compostela.jpg; sourceTree = "<group>"; };
+		6553B6721D25E62D00BB49CE /* Sanblas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Sanblas.jpg; sourceTree = "<group>"; };
+		6553B6731D25E62D00BB49CE /* Tecuala.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Tecuala.jpg; sourceTree = "<group>"; };
+		6553B6741D25E62D00BB49CE /* Tepic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Tepic.jpg; sourceTree = "<group>"; };
+		6553B67A1D25E82500BB49CE /* BCS.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BCS.jpg; sourceTree = "<group>"; };
+		6553B67B1D25E82500BB49CE /* Jalisco.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Jalisco.jpg; sourceTree = "<group>"; };
+		6553B67C1D25E82500BB49CE /* Nayarit.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Nayarit.jpg; sourceTree = "<group>"; };
+		6553B67D1D25E82500BB49CE /* Sinaloa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Sinaloa.jpg; sourceTree = "<group>"; };
+		6553B67E1D25E82500BB49CE /* Sonora.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Sonora.jpg; sourceTree = "<group>"; };
 		D1B186E91D1DF92D0029CEC0 /* Navigation Controller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Navigation Controller.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1B186ED1D1DF92D0029CEC0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D1B186EF1D1DF92D0029CEC0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -39,11 +102,6 @@
 		D1B187091D1DFCE90029CEC0 /* cellHome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cellHome.h; sourceTree = "<group>"; };
 		D1B1870A1D1DFCE90029CEC0 /* cellHome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cellHome.m; sourceTree = "<group>"; };
 		D1B1870B1D1DFCE90029CEC0 /* cellHome.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = cellHome.xib; sourceTree = "<group>"; };
-		D1B187101D1E05B40029CEC0 /* destination01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = destination01.png; sourceTree = "<group>"; };
-		D1B187111D1E05B40029CEC0 /* destination02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = destination02.png; sourceTree = "<group>"; };
-		D1B187121D1E05B40029CEC0 /* destination03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = destination03.png; sourceTree = "<group>"; };
-		D1B187131D1E05B40029CEC0 /* destination04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = destination04.png; sourceTree = "<group>"; };
-		D1B187141D1E05B40029CEC0 /* destination05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = destination05.png; sourceTree = "<group>"; };
 		D1B1871B1D1E0C7B0029CEC0 /* DestinationDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DestinationDetails.h; sourceTree = "<group>"; };
 		D1B1871C1D1E0C7B0029CEC0 /* DestinationDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DestinationDetails.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -59,6 +117,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6553B6471D25DB8000BB49CE /* img */ = {
+			isa = PBXGroup;
+			children = (
+				6553B67A1D25E82500BB49CE /* BCS.jpg */,
+				6553B67B1D25E82500BB49CE /* Jalisco.jpg */,
+				6553B67C1D25E82500BB49CE /* Nayarit.jpg */,
+				6553B67D1D25E82500BB49CE /* Sinaloa.jpg */,
+				6553B67E1D25E82500BB49CE /* Sonora.jpg */,
+				6553B6701D25E62D00BB49CE /* Bahia.jpg */,
+				6553B6711D25E62D00BB49CE /* Compostela.jpg */,
+				6553B6721D25E62D00BB49CE /* Sanblas.jpg */,
+				6553B6731D25E62D00BB49CE /* Tecuala.jpg */,
+				6553B6741D25E62D00BB49CE /* Tepic.jpg */,
+				6553B6661D25E46B00BB49CE /* comondu.jpg */,
+				6553B6671D25E46B00BB49CE /* lapaz.jpg */,
+				6553B6681D25E46B00BB49CE /* Loreto.jpg */,
+				6553B6691D25E46B00BB49CE /* Mulege.jpg */,
+				6553B66A1D25E46B00BB49CE /* Santarosalia.jpg */,
+				6553B65C1D25E36700BB49CE /* Hermosillo.jpg */,
+				6553B65D1D25E36700BB49CE /* navojoa.jpg */,
+				6553B65E1D25E36700BB49CE /* Nogales.png */,
+				6553B65F1D25E36700BB49CE /* Rayon.jpg */,
+				6553B6601D25E36700BB49CE /* Ures.jpg */,
+				6553B6521D25E26D00BB49CE /* culiacan.jpg */,
+				6553B6531D25E26D00BB49CE /* guasave.jpg */,
+				6553B6541D25E26D00BB49CE /* losmochis.jpg */,
+				6553B6551D25E26D00BB49CE /* mazatlan.jpg */,
+				6553B6561D25E26D00BB49CE /* rosario.jpg */,
+				6553B64A1D25DD0C00BB49CE /* arandas.jpg */,
+				6553B64B1D25DD0C00BB49CE /* tonala.jpg */,
+				6553B64C1D25DD0C00BB49CE /* vallarta.jpg */,
+				6553B64D1D25DD0C00BB49CE /* zapopan.jpg */,
+				6553B6481D25DB9100BB49CE /* gdl.jpg */,
+			);
+			name = img;
+			sourceTree = "<group>";
+		};
 		D1B186E01D1DF92D0029CEC0 = {
 			isa = PBXGroup;
 			children = (
@@ -78,10 +173,10 @@
 		D1B186EB1D1DF92D0029CEC0 /* Navigation Controller */ = {
 			isa = PBXGroup;
 			children = (
+				6553B6471D25DB8000BB49CE /* img */,
 				D1B187071D1DF94C0029CEC0 /* Main */,
 				D1B187061D1DF9440029CEC0 /* Controllers */,
 				D1B187081D1DFCB10029CEC0 /* Cells */,
-				D1B1870E1D1E05B40029CEC0 /* imgs */,
 				D1B186F51D1DF92D0029CEC0 /* Main.storyboard */,
 				D1B186FB1D1DF92D0029CEC0 /* Assets.xcassets */,
 				D1B186FD1D1DF92D0029CEC0 /* LaunchScreen.storyboard */,
@@ -107,6 +202,8 @@
 				D1B186F31D1DF92D0029CEC0 /* Home.m */,
 				D1B1871B1D1E0C7B0029CEC0 /* DestinationDetails.h */,
 				D1B1871C1D1E0C7B0029CEC0 /* DestinationDetails.m */,
+				654340721D2490460072E057 /* CityDetail.h */,
+				654340731D2490460072E057 /* CityDetail.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -126,20 +223,11 @@
 				D1B187091D1DFCE90029CEC0 /* cellHome.h */,
 				D1B1870A1D1DFCE90029CEC0 /* cellHome.m */,
 				D1B1870B1D1DFCE90029CEC0 /* cellHome.xib */,
+				650CA6C71D235EDD0012058A /* cellCity.h */,
+				650CA6C81D235EDD0012058A /* cellCity.m */,
+				650CA6C91D235EDD0012058A /* cellCity.xib */,
 			);
 			name = Cells;
-			sourceTree = "<group>";
-		};
-		D1B1870E1D1E05B40029CEC0 /* imgs */ = {
-			isa = PBXGroup;
-			children = (
-				D1B187101D1E05B40029CEC0 /* destination01.png */,
-				D1B187111D1E05B40029CEC0 /* destination02.png */,
-				D1B187121D1E05B40029CEC0 /* destination03.png */,
-				D1B187131D1E05B40029CEC0 /* destination04.png */,
-				D1B187141D1E05B40029CEC0 /* destination05.png */,
-			);
-			path = imgs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,15 +287,41 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1B187181D1E05B40029CEC0 /* destination03.png in Resources */,
+				6553B6791D25E62D00BB49CE /* Tepic.jpg in Resources */,
+				6553B6581D25E26D00BB49CE /* guasave.jpg in Resources */,
+				6553B66F1D25E46B00BB49CE /* Santarosalia.jpg in Resources */,
+				6553B6611D25E36700BB49CE /* Hermosillo.jpg in Resources */,
+				6553B6651D25E36700BB49CE /* Ures.jpg in Resources */,
+				6553B6621D25E36700BB49CE /* navojoa.jpg in Resources */,
+				6553B6631D25E36700BB49CE /* Nogales.png in Resources */,
+				6553B6811D25E82500BB49CE /* Nayarit.jpg in Resources */,
 				D1B186FF1D1DF92D0029CEC0 /* LaunchScreen.storyboard in Resources */,
 				D1B186FC1D1DF92D0029CEC0 /* Assets.xcassets in Resources */,
-				D1B187171D1E05B40029CEC0 /* destination02.png in Resources */,
-				D1B187161D1E05B40029CEC0 /* destination01.png in Resources */,
-				D1B187191D1E05B40029CEC0 /* destination04.png in Resources */,
-				D1B1871A1D1E05B40029CEC0 /* destination05.png in Resources */,
+				6553B65A1D25E26D00BB49CE /* mazatlan.jpg in Resources */,
+				6553B6511D25DD0C00BB49CE /* zapopan.jpg in Resources */,
+				6553B64F1D25DD0C00BB49CE /* tonala.jpg in Resources */,
+				6553B66C1D25E46B00BB49CE /* lapaz.jpg in Resources */,
+				6553B66B1D25E46B00BB49CE /* comondu.jpg in Resources */,
+				6553B6501D25DD0C00BB49CE /* vallarta.jpg in Resources */,
+				6553B66D1D25E46B00BB49CE /* Loreto.jpg in Resources */,
+				6553B66E1D25E46B00BB49CE /* Mulege.jpg in Resources */,
+				6553B6781D25E62D00BB49CE /* Tecuala.jpg in Resources */,
+				6553B64E1D25DD0C00BB49CE /* arandas.jpg in Resources */,
+				6553B6771D25E62D00BB49CE /* Sanblas.jpg in Resources */,
+				6553B6821D25E82500BB49CE /* Sinaloa.jpg in Resources */,
+				6553B6761D25E62D00BB49CE /* Compostela.jpg in Resources */,
+				6553B6491D25DB9100BB49CE /* gdl.jpg in Resources */,
+				6553B6831D25E82500BB49CE /* Sonora.jpg in Resources */,
+				6553B6571D25E26D00BB49CE /* culiacan.jpg in Resources */,
+				6553B6641D25E36700BB49CE /* Rayon.jpg in Resources */,
+				650CA6CB1D235EDD0012058A /* cellCity.xib in Resources */,
+				6553B6591D25E26D00BB49CE /* losmochis.jpg in Resources */,
+				6553B67F1D25E82500BB49CE /* BCS.jpg in Resources */,
+				6553B65B1D25E26D00BB49CE /* rosario.jpg in Resources */,
 				D1B1870D1D1DFCE90029CEC0 /* cellHome.xib in Resources */,
 				D1B186F71D1DF92D0029CEC0 /* Main.storyboard in Resources */,
+				6553B6751D25E62D00BB49CE /* Bahia.jpg in Resources */,
+				6553B6801D25E82500BB49CE /* Jalisco.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,9 +335,11 @@
 				D1B186F41D1DF92D0029CEC0 /* Home.m in Sources */,
 				D1B186FA1D1DF92D0029CEC0 /* Navigation_Controller.xcdatamodeld in Sources */,
 				D1B186F11D1DF92D0029CEC0 /* AppDelegate.m in Sources */,
+				654340741D2490460072E057 /* CityDetail.m in Sources */,
 				D1B1870C1D1DFCE90029CEC0 /* cellHome.m in Sources */,
 				D1B186EE1D1DF92D0029CEC0 /* main.m in Sources */,
 				D1B1871D1D1E0C7B0029CEC0 /* DestinationDetails.m in Sources */,
+				650CA6CA1D235EDD0012058A /* cellCity.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,6 +488,7 @@
 				D1B187051D1DF92D0029CEC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
